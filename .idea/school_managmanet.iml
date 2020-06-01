@@ -9,7 +9,15 @@
       <sourceFolder url="file://$MODULE_DIR$/tests/Unit" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/backpack/generators" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/backpack/langfilemanager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/backpack/pagemanager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/elfinder-flysystem-driver" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/laravel-elfinder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cocur/slugify" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cviebrock/eloquent-sluggable" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laracasts/generators" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/flysystem-cached-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/studio-42/elfinder" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
