@@ -4,6 +4,7 @@
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('course') }}'><i class='nav-icon fa fa-book'></i> Courses</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('student') }}'><i class='nav-icon fa fa-graduation-cap'></i> Students</a></li>
 
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('invoice') }}'><i class='nav-icon fa fa-check'></i> Invoices</a></li>
 <li class="nav-item"><a class="nav-link" href="{{URL::to('/pay')}}"><i class="nav-icon fa fa-money"></i> Pay</a></li>
 
 
@@ -26,3 +27,5 @@
         <li class="nav-item"><a class="nav-link" href="{{ backpack_url('permission') }}"><i class="nav-icon fa fa-key"></i> <span>Permissions</span></a></li>
     </ul>
 </li>
+
+

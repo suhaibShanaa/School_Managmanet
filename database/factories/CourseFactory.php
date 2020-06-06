@@ -5,7 +5,7 @@
 use App\Course;
 use Faker\Generator as Faker;
 
-$factory->define(Course::class, function (Faker $faker) {
+$factory->define(\App\Models\Course::class, function (Faker $faker) {
     return [
         'name'         =>      $faker->sentence(3),
         'hours'     =>      $faker->randomNumber(),

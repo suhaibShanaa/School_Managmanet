@@ -19,9 +19,12 @@ class CreateStudentsTable extends Migration
             $table->string('std_number');
             $table->string('image')->nullable();
             $table->string('gender');
+            $table->string('phone');
+            $table->string('email');
             $table->string('birthday');
             $table->string('major');
             $table->string('address')->nullable();
+
             $table->timestamps();
         });
     }

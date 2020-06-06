@@ -12,7 +12,7 @@ class CoursesTableSeeder extends Seeder
     public function run()
     {
         //
-        factory('App\Course', 20)->create();
+        factory('App\Models\Course', 20)->create();
 
 
     }

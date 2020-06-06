@@ -9,7 +9,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
-        "backpack/crud": "4.0.*",
+        "ahmedsaoud31/arabic-laravel": "dev-master",
+        "backpack/crud": "^4.1",
         "backpack/langfilemanager": "^2.0",
         "backpack/pagemanager": "^2.0",
         "backpack/permissionmanager": "^5.0",

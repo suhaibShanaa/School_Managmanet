@@ -12,7 +12,7 @@ class StudentsTableSeeder extends Seeder
     public function run()
     {
         //
-        factory('App\Student', 10)->create();
+        factory('App\Models\Student', 10)->create();
 
     }
 }

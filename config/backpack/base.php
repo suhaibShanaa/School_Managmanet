@@ -24,7 +24,7 @@ return [
     // ----
 
     // Project name. Shown in the window title.
-    'project_name' => 'FasterPay',
+    'project_name' => 'YarmoukBill',
 
     // When clicking on the admin panel's top-left logo/name,
     // where should the user be redirected?
@@ -79,14 +79,17 @@ return [
     'breadcrumbs' => true,
 
     // Horizontal navbar classes. Helps make the admin panel look similar to your project's design.
-    'header_class' => 'app-header navbar navbar-color bg-error border-0',
+    'header_class' => 'app-header navbar navbar-color bg-green border-0',
     // For background colors use: bg-dark, bg-primary, bg-secondary, bg-danger, bg-warning, bg-success, bg-info, bg-blue, bg-light-blue, bg-indigo, bg-purple, bg-pink, bg-red, bg-orange, bg-yellow, bg-green, bg-teal, bg-cyan, bg-white
     // For links to be visible on different background colors use: "navbar-dark", "navbar-light", "navbar-color"
 
     // ----
     // BODY
     // ----
-
+//    'header_class' => 'app-header navbar navbar-color bg-green border-0',
+//    'body_class' => 'app aside-menu-fixed sidebar-lg-show',
+//    'sidebar_class' => 'sidebar sidebar-pills bg-white',
+//    'footer_class' => 'app-footer d-none',
     // Body element classes.
     'body_class' => 'app aside-menu-fixed sidebar-lg-show',
     // Try sidebar-hidden, sidebar-fixed, sidebar-compact, sidebar-lg-show

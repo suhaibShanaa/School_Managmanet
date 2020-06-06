@@ -33,7 +33,6 @@ class StudentCrudController extends CrudController
                 'name'      => 'Course', // the method that defines the relationship in your Model
                 'entity'    => 'Course', // the method that defines the relationship in your Model
                 'attribute' => 'name', // foreign key attribute that is shown to user
-
                 'pivot'     =>  true, // on create&update, do you need to add/delete pivot table entries?
                 'select_all' => true, // show Select All and Clear buttons?
                 'foreign_pivot_key' => 'course_id',
@@ -44,6 +43,8 @@ class StudentCrudController extends CrudController
                 }),
                 // foreign key model // force the related options to be a custom query, instead of all(); you can use this to filter the results show in the select
             ] ,'create/update/delete');
+
+
 
 
         $this->crud->addField(
@@ -94,15 +95,15 @@ class StudentCrudController extends CrudController
                 //'inline'      => false, // show the radios all on the same line?
             ], 'create/update/delete');
 
-           $this->crud->addColumn([
-// n-n relationship (with pivot table)
+           $this->crud->setColumns(['name','std_number','gender','birthday','major',
+               [
             'label' => "Courses", // Table column heading
             'type' => "select_multiple",
             'name' => 'Course', // the method that defines the relationship in your Model
             'entity' => 'Course', // the method that defines the relationship in your Model
             'attribute' => "name", // foreign key attribute that is shown to user
             'model' => "App\Models\Course", // foreign key model
-        ]);
+        ]]);
 
 
     }
@@ -110,7 +111,7 @@ class StudentCrudController extends CrudController
     protected function setupListOperation()
     {
         // TODO: remove setFromDb() and manually define Columns, maybe Filters
-        $this->crud->setFromDb();
+        //$this->crud->setFromDb();
 
     }
 
